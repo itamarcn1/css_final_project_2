@@ -1,0 +1,483 @@
+
+@media screen and (max-width: 700px) {
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+
+    }    
+
+    #eco_logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .first_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-image: url('./assets/wet_leaf.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100%;
+        align-content: center;
+    
+    }
+    .first_container_h {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;        
+        align-content: center;
+        
+        
+    }
+    
+    
+    
+    
+    #green_lifestyle_h1 {
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        background: black;
+        color: white;
+        width: 55%;
+        align-content: space-around;
+        align-content: center;
+        padding: 7px;
+
+    }
+
+    #find_out_h3 { 
+        display: flex;
+        flex-wrap: wrap;
+        background: black;
+        color: white;
+        height: 21%;
+        width: 62%;
+        align-content: space-around;
+        padding: 7px;
+        
+    
+    
+    }
+    
+    .first_container_p_and_form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }  
+    
+
+    #p_and_form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        color: black;
+        background: white;
+        border: 1px solid black;
+        padding: 0px 20px 20px 20px;
+        height: 70%;
+        justify-content: center;
+        
+        
+        
+    }
+    
+
+    #p_before_form {
+
+        font-size: x-large;
+    }
+    
+    
+    .form_input {
+        padding: 7px 130px 13px 7px;
+        border: 1px solid black;
+    }
+    
+    #form_input_button {
+        padding: 20px 67px 20px 67px;
+        text-align: center;
+        background-color: green;
+        color: white;
+        border: none;
+        line-height: 20px;
+        vertical-align: 20px;
+        font-size: larger;
+        width: 100%;
+    }
+    
+    .h2_learn_about {
+        display: flex;
+        justify-content: start;
+        font-size: xx-large;
+    
+    
+    }
+    
+    .second_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        
+        
+    
+    }
+    
+    .second_container_div {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+    
+    .second_container_h3_p {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+
+    }  
+    
+    .second_container_h3_p p {
+        font-size: smaller;
+        font-weight: 200;
+
+    }  
+    
+    
+    
+    .second_container_images {
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        
+    }
+    
+
+    .third_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: rgb(218, 215, 215);
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .third_container h2 {
+        font-size: xx-large;
+    
+    }
+    
+    .forth_container {
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+    .forth_container div {
+        display: flex;
+        padding: 30px;
+    }
+    
+    .forth_container_p {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        
+
+    }
+    
+
+    
+    .forth_container_img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    
+    
+    }
+
+    #hr1 {
+        width: 100%;
+    }
+
+    
+    
+    
+    #footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: black;
+        color: white;
+        
+    }
+    
+    .fa fa-recycle fa-lg {
+            display: flex;
+            flex-direction: row;
+    }
+    
+    #footer_p1 {
+        align-self: start;
+        flex: 50%;
+    
+    }
+    
+    #footer_p2 {
+
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px) {
+
+    #eco_logo {
+        font-size:x-large;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+
+    .first_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-image: url('./assets/wet_leaf.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 500px;
+
+
+    }
+
+
+    .first_container_h {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        justify-items: left;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 50%;
+
+
+    }
+
+    #green_lifestyle_h1 {
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        background: black;
+        color: white;
+        height: 10%;
+        width: 55%;
+        align-content: space-around;
+        position: relative;
+        left: 30px;
+        
+    }
+
+
+    #find_out_h3 { 
+        display: flex;
+        flex-wrap: wrap;
+        background: black;
+        color: white;
+        height: 6%;
+        width: 61%;
+        align-content: space-around;
+        position: relative;
+        left: 30px;
+        
+
+
+    }
+        
+    .first_container_p_and_form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 50%;
+
+    }  
+
+    #p_and_form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        color: black;
+        background: white;
+        border: 1px solid black;
+        padding: 0px 20px 20px 20px;
+        height: 70%;
+        justify-content: center;
+        position: relative;
+        left: 30px;
+        
+        
+    }
+
+    #p_before_form {
+
+        font-size: x-large;
+    }
+
+
+    .form_input {
+        padding: 7px 130px 13px 7px;
+        border: 1px solid black;
+    }
+
+    #form_input_button {
+        padding: 20px 67px 20px 67px;
+        text-align: center;
+        background-color: green;
+        color: white;
+        border: none;
+        line-height: 20px;
+        vertical-align: 20px;
+        font-size: larger;
+        width: 100%;
+    }
+
+
+    .h2_learn_about {
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+
+
+    }
+
+    .second_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+
+    }
+
+    #second_container_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #second_container_h3 {
+        font-size: x-large;
+
+    }
+
+    .second_container_h3_p p {
+        font-size: smaller;
+        font-weight: 200;
+
+    }  
+
+    .second_container_images {
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        
+    }
+
+    .third_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: rgb(218, 215, 215);
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .third_container h2 {
+        font-size: xx-large;
+
+    }
+
+    .forth_container {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+
+    .forth_container div {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+    }
+
+
+    .forth_container_img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+
+    }
+
+
+    #footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: black;
+        color: white;
+        
+    }
+
+    .fa fa-recycle fa-lg {
+            display: flex;
+            flex-direction: row;
+    }
+
+    #footer_p1 {
+        align-self: start;
+        flex: 50%;
+
+    }
+
+    #footer_p2 {
+        text-align: end;
+        flex: 50%;
+
+    }
+
+}
